@@ -1,7 +1,8 @@
 {
-  "name": "padelbeans-os",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "echo 'Build done'"
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
